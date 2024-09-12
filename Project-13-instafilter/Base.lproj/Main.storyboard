@@ -48,20 +48,24 @@
                                 </connections>
                             </slider>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="17s-qi-NIN">
-                                <rect key="frame" x="214" y="686" width="145" height="44"/>
+                                <rect key="frame" x="214" y="686" width="155" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="127" id="g3L-0f-Ol8"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Save"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Save">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="18"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pbw-cp-pd0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QeQ-1Q-L0r">
-                                <rect key="frame" x="34" y="686" width="145" height="44"/>
+                                <rect key="frame" x="34" y="686" width="155" height="44"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Change Filter"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Change Filter">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="changeFilter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bBj-Lz-If4"/>
                                 </connections>
@@ -74,17 +78,18 @@
                             <constraint firstItem="eL5-9f-qiA" firstAttribute="top" secondItem="6HY-AA-dTB" secondAttribute="top" id="AX8-xK-j9E"/>
                             <constraint firstItem="6HY-AA-dTB" firstAttribute="trailing" secondItem="17s-qi-NIN" secondAttribute="trailing" id="GvR-2c-iJ7"/>
                             <constraint firstItem="QeQ-1Q-L0r" firstAttribute="top" secondItem="6HY-AA-dTB" secondAttribute="bottom" constant="44" id="LI5-LG-M03"/>
+                            <constraint firstItem="mrM-4J-HwO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="N3p-BX-W92"/>
                             <constraint firstItem="eL5-9f-qiA" firstAttribute="leading" secondItem="QeQ-1Q-L0r" secondAttribute="leading" id="OA5-Wz-MAi"/>
                             <constraint firstItem="BxL-lc-Zh2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Pjv-dt-NfE"/>
                             <constraint firstAttribute="bottom" secondItem="6HY-AA-dTB" secondAttribute="bottom" constant="210" id="VyX-p0-lkR"/>
                             <constraint firstItem="6HY-AA-dTB" firstAttribute="leading" secondItem="eL5-9f-qiA" secondAttribute="trailing" constant="10" id="boL-Kk-Cqk"/>
+                            <constraint firstItem="BxL-lc-Zh2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="czd-E8-piv"/>
                             <constraint firstItem="BxL-lc-Zh2" firstAttribute="trailing" secondItem="6HY-AA-dTB" secondAttribute="trailing" id="mUO-G4-Nif"/>
                             <constraint firstItem="BxL-lc-Zh2" firstAttribute="leading" secondItem="eL5-9f-qiA" secondAttribute="leading" id="n9l-UU-k73"/>
                             <constraint firstItem="QeQ-1Q-L0r" firstAttribute="top" secondItem="eL5-9f-qiA" secondAttribute="bottom" constant="52" id="neG-0m-Zbn"/>
                             <constraint firstItem="QeQ-1Q-L0r" firstAttribute="baseline" secondItem="17s-qi-NIN" secondAttribute="baseline" id="oDZ-Dh-grS"/>
                             <constraint firstItem="eL5-9f-qiA" firstAttribute="top" secondItem="BxL-lc-Zh2" secondAttribute="bottom" constant="30" id="rqa-Or-yyo"/>
                             <constraint firstItem="BxL-lc-Zh2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ugX-ul-qmf"/>
-                            <constraint firstItem="17s-qi-NIN" firstAttribute="leading" secondItem="QeQ-1Q-L0r" secondAttribute="trailing" constant="70" id="vUZ-hw-GKw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dpa-Vl-idn"/>
